@@ -5,15 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Momo Fabrics</title>
   <style>
-    body {
+    html, body {
+      height: 100%;
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
+    }
+
+    body {
       background: url("https://i.postimg.cc/T14qCDVy/bg2.jpg") no-repeat center center fixed;
       background-size: cover;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      justify-content: center; /* vertical center */
+      align-items: center;     /* horizontal center */
       color: #F5DEB3; /* wheat/golden tone */
     }
 
@@ -22,22 +27,24 @@
       height: 150px;
       border-radius: 50%;
       object-fit: cover;
-      margin-top: 30px;
+      margin-bottom: 20px;
     }
 
     h1 {
-      margin: 20px 0 10px;
+      margin: 10px 0;
       font-size: 36px;
       color: #F5DEB3;
       text-shadow: 1px 1px 2px black;
+      text-align: center;
     }
 
     .subheading {
       font-size: 20px;
       margin-bottom: 30px;
-      color: #b69f1d;
+      color: #a9910d;
       font-weight: bold;
       text-shadow: 1px 1px 2px #000;
+      text-align: center;
     }
 
     .button {
@@ -59,7 +66,6 @@
       background-color: #eee599;
       color: #000;
     }
-
   </style>
 </head>
 <body>
